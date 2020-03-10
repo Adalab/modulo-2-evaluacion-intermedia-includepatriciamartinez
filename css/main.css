@@ -3,3 +3,37 @@
   padding: opx;
   box-sizing: border-box;
 }
+
+.js-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.js-subtitle {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 20px;
+}
+.js-number {
+  margin: 30px 200px 30px 5px;
+  background-color: rgb(228, 215, 215);
+}
+
+.js-clue {
+  margin: 10px 200px 30px 5px;
+}
+
+.js-attempt {
+  margin: 10px 200px 30px 5px;
+}
+
+.js-button {
+  width: 80px;
+  height: 30px;
+  border: 0;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background-color: lightseagreen;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  color: #ffffff;
+}
