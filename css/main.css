@@ -1,39 +1,50 @@
-* {
+body {
   margin: 0px;
-  padding: opx;
-  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
-.js-container {
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.form {
   display: flex;
   flex-direction: column;
 }
 
-.js-subtitle {
-  font-family: 'Open Sans', sans-serif;
-  margin-top: 20px;
+.input-number {
+  width: 20vw;
+  border-radius: 5px;
+  background-color: rgb(202, 199, 199);
 }
-.js-number {
-  margin: 30px 200px 30px 5px;
-  background-color: rgb(228, 215, 215);
-}
-
-.js-clue {
-  margin: 10px 200px 30px 5px;
-}
-
-.js-attempt {
-  margin: 10px 200px 30px 5px;
+.btn {
+  margin-top: 5px;
+  width: 5vw;
+  height: 8vh;
+  border: 0px;
+  border-radius: 5px;
+  background-color: lightseagreen;
+  color: white;
 }
 
-.js-button {
+.clue {
+  width: fit-content;
+  border: 2px solid rgb(216, 215, 215);
+}
+
+.attempt {
+  width: fit-content;
+  border: 2px solid rgb(216, 215, 215);
+}
+
+/*.js-btn {
   width: 80px;
   height: 30px;
   border: 0;
   margin-bottom: 30px;
   border-radius: 10px;
   background-color: lightseagreen;
-  font-family: 'Open Sans';
+  font-family: 'RobotoSlab';
   font-size: 18px;
   color: #ffffff;
-}
+}*/
